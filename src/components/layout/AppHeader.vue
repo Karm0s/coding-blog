@@ -71,12 +71,13 @@ export default {
   background-color: red;
   color: var(--dark);
   position: relative;
+  z-index: 0;
 }
-.header-btn::before{
+/* .header-btn::before{
   background-color: var(--dark);
-
   content: "";
   position: absolute;
+  z-index: -1;
   top: 0;
   right: 0;
   bottom: 0;
@@ -89,5 +90,5 @@ export default {
 .header-btn:hover::before{
   transform: scaleX(1);
   transform-origin: center left;
-}
+} */
 </style>

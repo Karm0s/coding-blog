@@ -16,3 +16,21 @@
 .btn:hover{
   color: var(--white);
 }
+.btn::before{
+  background-color: var(--dark);
+  content: "";
+  position: absolute;
+  z-index: -1;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  transform: scaleX(0);
+  transition: transform .6s cubic-bezier(.075,.82,.165,1);
+  transform-origin: center right;
+
+}
+.btn:hover::before{
+  transform: scaleX(1);
+  transform-origin: center left;
+}
