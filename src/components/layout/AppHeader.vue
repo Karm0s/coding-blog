@@ -1,7 +1,6 @@
 <template>
 
   <div>
-    
     <div class="header flex flex-wrap items-center justify-between px-5 md:px-10">
       <div class="brand">
         <img src="../../assets/BushidoCodeLogo.png" class="h-12">
@@ -26,8 +25,8 @@
     </div>
 
     <div class="header-menu flex flex-col mb-5" :class="menuState">
-      <a class="py-3" href="">About</a>
-      <a class="py-3" href="">Contact</a>
+      <a class="py-3 text-white" href="">About</a>
+      <a class="py-3 text-white" href="">Contact</a>
     </div>
   </div>
 
@@ -56,39 +55,12 @@ export default {
 </script>
 
 <style scoped>
-
-@keyframe hover-animation{
-  0% {background-color: blue; left: 0%; }
-  100% {background-color: blue; left: 100%}
-}
 .header{
   height: 70px;
-  background: gray;
 }
 .header-btn{
   height: 70px;
   width: 80px;
-  background-color: red;
-  color: var(--dark);
-  position: relative;
-  z-index: 0;
+  color: var(--white);
 }
-/* .header-btn::before{
-  background-color: var(--dark);
-  content: "";
-  position: absolute;
-  z-index: -1;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
-  transform: scaleX(0);
-  transition: transform .6s cubic-bezier(.075,.82,.165,1);
-  transform-origin: center right;
-
-}
-.header-btn:hover::before{
-  transform: scaleX(1);
-  transform-origin: center left;
-} */
 </style>
