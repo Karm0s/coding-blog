@@ -25,8 +25,12 @@
     </div>
 
     <div class="header-menu flex flex-col mb-5" :class="menuState">
-      <a class="py-3 text-white" href="">About</a>
-      <a class="py-3 text-white" href="">Contact</a>
+      <button class="btn header-menu-btn">
+        <a class="py-3 text-white" href="">About</a>
+      </button>
+      <button class="btn header-menu-btn">
+        <a class="py-3 text-white" href="">Contact</a>
+      </button>
     </div>
   </div>
 
@@ -62,5 +66,9 @@ export default {
   height: 70px;
   width: 80px;
   color: var(--white);
+}
+.header-menu-btn{
+  height: 50px;
+  width: 100%;
 }
 </style>

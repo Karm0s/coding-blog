@@ -2,7 +2,7 @@
   <div>
     <AppHero>
       <div
-        class="hero-content flex flex-col items-start justify-start text-white text-xl md:text-2xl pt-10 px-3 md:pt-0 md:pb-20 md:justify-center md:px-20"
+        class="hero-content flex flex-col items-start justify-start text-white text-xl md:text-2xl pt-20 px-3 md:pt-0 md:pb-20 md:justify-center md:px-20"
       >
         <h1 class="header-text">
           Welcom to <span class="logo-font red">{Bushido Code}</span>
