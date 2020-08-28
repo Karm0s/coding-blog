@@ -17,17 +17,22 @@
         </h1>
       </div>
     </AppHero>
-    <div>this is the home page</div>
+    
+    <div class="homepage-content">
+      <BlogPosts/>
+    </div>
   </div>
 </template>
 
 <script>
 import AppHero from "../components/layout/AppHero";
+import BlogPosts from "../components/layout/BlogPosts";
 
 export default {
   name: "HomePage",
   components: {
-    AppHero
+    AppHero,
+    BlogPosts
   }
 };
 </script>
