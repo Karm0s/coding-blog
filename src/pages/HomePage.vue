@@ -2,12 +2,12 @@
   <div>
     <AppHero>
       <div
-        class="hero-content flex flex-col items-start justify-start text-white text-xl md:text-2xl pt-20 px-3 md:pt-0 md:pb-20 md:justify-center md:px-20"
+        class="hero-content flex flex-col items-start justify-start text-white text-xl md:text-2xl pt-20 px-1 md:pt-0 md:pb-20 md:justify-center md:px-20"
       >
-        <h1 class="header-text">
+        <h1>
           Welcom to <span class="logo-font red">{Bushido Code}</span>
         </h1>
-        <h1 class="font2 header-text">
+        <h1>
           Where, with the ways of the
           <span class="logo-font red">Samurai</span>
         </h1>
@@ -18,7 +18,7 @@
       </div>
     </AppHero>
     
-    <div class="homepage-content">
+    <div class="homepage-content px-10 py-10">
       <BlogPosts/>
     </div>
   </div>
